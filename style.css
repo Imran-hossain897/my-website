@@ -13,7 +13,7 @@ body{
     margin: 5%;
     padding: 2%;
 }
-img{
+.half-width img{
     width: 100%;
 }
 .background-bannar{
@@ -23,8 +23,10 @@ img{
     padding: 50px;
 }
 section{
-    height: 500px;   
+    height: 500px;  
+    padding-bottom: 100px; 
 }
+
 .link-button{
     text-decoration: none;
     color: white;
@@ -34,4 +36,58 @@ section{
     padding: 10px 30px;
     font-size: 400;
 
+}
+p{
+    font-size: 20px;
+}
+.background-biography{
+    background-image: url(image/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 50px;
+}
+.recent-work{
+    width: 25%;
+    float: left;
+    margin: 0%;
+    padding: 3%;
+}
+img{
+    width: 100%;
+}
+.latest-work{
+    background-image: url(image/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 50px;
+}
+.footer-center{
+    text-align: center;
+    background-image: url(image/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 50px;
+}
+#small{
+    font-size: 6px;
+}
+#lorem-ipsum{
+    font-weight: 900;
+    
+}
+.programming-hero{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(45deg, deeppink, rgb(243, 10, 134)
+    );
+    border-radius: 10px;
+    font-size: 400;
+    display: inline-block;
+    padding: 15px 40px;
+}
+#copy-right{
+    text-align: center;
+}
+#hyper link{
+    f
 }
